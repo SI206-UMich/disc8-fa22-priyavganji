@@ -23,6 +23,7 @@ def getAdmissionsInfo2019(soup):
     #print (td)
     for i in td:
         td[i].text.strip
+        
         final = td[i : i + 1]
     print (final)
     #return final
